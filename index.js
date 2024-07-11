@@ -7,7 +7,7 @@ const port = 3010;
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-  res.sendFile(resolve(__dirname, 'pages/index.html'));
+  res.sendFile(resolve(__dirname, 'pages/demo62/index.html'));
 });
 
 app.listen(port, () => {
